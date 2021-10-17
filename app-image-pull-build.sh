@@ -1,2 +1,4 @@
+#!/bin/sh
+
 git pull
-app-image-build.sh
+./app-image-build.sh
