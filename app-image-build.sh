@@ -2,8 +2,8 @@
 # Build our Flask app and all the dependencies into a container image
 # Note: OOTB on RHEL 7.6 this needs to be run as root.
 
-MYIMAGE=myorg/myflaskapp
-FLASK_APP=flaskr
+MYIMAGE=GS/WorkinDaysCallendar
+FLASK_APP=WorkingDaysCallendar
 FLASK_ENV=development
 USERID=1000
 
