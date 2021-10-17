@@ -8,7 +8,7 @@ FLASK_ENV=development
 USERID=1000
 
 IMAGEID=$(buildah from ubi8/python-36)
-buildah run $IMAGEID pip3 install flask
+buildah run $IMAGEID pip3 install flask flask-restful
 
 buildah config --env FLASK_APP=$FLASK_APP --env FLASK_ENV=$FLASK_ENV $IMAGEID
 
